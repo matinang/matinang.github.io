@@ -1,10 +1,15 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Matina Angelpoulou</title>
-  </head>
-  <body>
-    <p>This is the website of Matina Angelopoulou.</p>
-  </body>
-</html>
+---
+layout: home
+---
+
+<section id="about">
+	<div class="container">
+	  <div class="avatar">
+		<img class="img-circle" src="{{ site.baseurl }}static/img/{{ site.avatar }}" alt="Responsive image">
+	  </div>
+	  <h4>I'm <strong>{{ site.author }}</strong>, </h3>
+		<h4>a risk analyst and data science enthusiast.</h3>
+	  <h4>Contact me at <a href="http://twitter.com/{{ site.twitter }}">@{{ site.twitter }}</a> or by <a href="mailto:{{ site.email }}">email</a>.</h3>
+	  {% include social.html %}
+	</div>
+</section>
