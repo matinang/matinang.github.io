@@ -10,7 +10,7 @@ port: 3000
 safe: true
 
 url: http://matinang.github.io/
-baseurl: /site/
+baseurl: /
 title: Matina Angelopoulou
 author: Matina Angelopoulou
 description: Personal website
